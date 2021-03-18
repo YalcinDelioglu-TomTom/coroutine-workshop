@@ -12,6 +12,8 @@ repositories {
 }
 
 dependencies {
+    val coroutinesVersion = "1.4.2"
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
     testImplementation(kotlin("test-junit"))
 }
 
