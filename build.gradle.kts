@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version "1.4.10"
 }
 
-group = "me.deliolgu"
+group = "coroutine-workshop"
 version = "1.0-SNAPSHOT"
 
 repositories {
