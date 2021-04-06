@@ -18,6 +18,13 @@ dependencies {
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:$coroutinesVersion")
 
     implementation ("ch.qos.logback:logback-classic:1.0.13")
+
+    // Network & Serialization
+    implementation ("com.google.code.gson:gson:2.8.6")
+    implementation ("com.squareup.retrofit2:converter-gson:2.6.2")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.9.0")
+
     testImplementation(kotlin("test-junit"))
 }
 
