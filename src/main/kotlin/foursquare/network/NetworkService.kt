@@ -14,8 +14,8 @@ open class NetworkService private constructor() {
     object Service : NetworkService()
 
     companion object {
-        private const val CLIENT_ID =  "JRAKDXXRGWHNYRVANYRCOT2AUMDTC24RLVB2HSQHZEBPS1E4"
-        private const val CLIENT_SECRET =  "M4YZT5PUAJTKF0PXHPHDMDBUSLPTIJSBL0JFINVZB1RNQNOJ"
+        private const val CLIENT_ID =  "Paste Your Client Id here"
+        private const val CLIENT_SECRET =  "Paste Your Secret here"
         private const val NEAR =  "NEW YORK"
         private const val LIMIT =  "5"
         private const val LAT_LON_ACC =  "1000"
